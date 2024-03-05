@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/System/Mutex.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/System/Mutex.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/System/Unix/MutexImpl.hpp \
  /usr/include/pthread.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

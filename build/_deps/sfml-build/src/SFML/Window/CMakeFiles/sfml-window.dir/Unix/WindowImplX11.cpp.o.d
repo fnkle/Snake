@@ -1,14 +1,14 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Event.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Joystick.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -179,28 +179,28 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.c
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Keyboard.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Mouse.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Sensor.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/WindowImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/CursorImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
  /usr/include/X11/Xlib.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/JoystickImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/JoystickImpl.hpp \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
@@ -219,13 +219,13 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.c
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/SensorImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/SensorImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
  /usr/include/c++/11/queue /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/set \
@@ -235,17 +235,17 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.c
  /usr/include/X11/extensions/Xrender.h /usr/include/X11/Xutil.h \
  /usr/include/X11/keysym.h /usr/include/X11/keysymdef.h \
  /usr/include/X11/extensions/render.h /usr/include/X11/Xdefs.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/InputImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/InputImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/bits/basic_ios.h \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Lock.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Lock.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Sleep.hpp \
  /usr/include/X11/Xlibint.h /usr/include/X11/Xproto.h \
  /usr/include/X11/Xmd.h /usr/include/X11/Xprotostr.h \
  /usr/include/X11/XlibConf.h /usr/include/X11/Xfuncs.h \
@@ -269,10 +269,10 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.c
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/linux/falloc.h /usr/include/c++/11/cstring \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/GlxExtensions.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/GlContext.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/GlxExtensions.hpp \
  /usr/include/GL/glx.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
  /usr/include/KHR/khrplatform.h /usr/include/GL/glxext.h \
  /usr/include/inttypes.h

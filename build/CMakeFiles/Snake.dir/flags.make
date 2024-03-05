@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/home/fink/Documents/code/snake/build/_deps/sfml-src/include
+CXX_INCLUDES = -I/home/fink/Documents/code/Snake/build/_deps/sfml-src/include
 
 CXX_FLAGS = -g -std=gnu++11
 

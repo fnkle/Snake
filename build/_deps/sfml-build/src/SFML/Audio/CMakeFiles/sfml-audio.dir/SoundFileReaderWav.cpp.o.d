@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -133,9 +133,9 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \

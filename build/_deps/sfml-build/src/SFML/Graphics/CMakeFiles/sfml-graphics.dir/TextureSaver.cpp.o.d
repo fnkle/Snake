@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \

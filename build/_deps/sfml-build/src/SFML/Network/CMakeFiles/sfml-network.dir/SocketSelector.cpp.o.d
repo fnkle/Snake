@@ -1,14 +1,14 @@
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/SocketSelector.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/SocketSelector.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/SocketSelector.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/SocketSelector.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -51,8 +51,8 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp
  /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/range_access.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/SocketImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/Unix/SocketImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/SocketImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/Unix/SocketImpl.hpp \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
@@ -112,7 +112,7 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \

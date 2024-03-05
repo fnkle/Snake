@@ -1,15 +1,15 @@
 _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/CursorImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -44,7 +44,7 @@ _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/X11/X.h \
  /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Window/Unix/Display.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

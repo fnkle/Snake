@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/IpAddress.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/IpAddress.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/IpAddress.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/IpAddress.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -152,11 +152,11 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/Http.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/TcpSocket.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/Http.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/TcpSocket.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/Socket.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Network/SocketHandle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
@@ -170,8 +170,8 @@ _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o: \
  /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/SocketImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network/Unix/SocketImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/SocketImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network/Unix/SocketImpl.hpp \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \

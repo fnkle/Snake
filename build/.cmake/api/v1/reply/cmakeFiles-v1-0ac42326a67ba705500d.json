@@ -374,8 +374,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/fink/Documents/code/snake/build",
-		"source" : "/home/fink/Documents/code/snake"
+		"build" : "/home/fink/Documents/code/Snake/build",
+		"source" : "/home/fink/Documents/code/Snake"
 	},
 	"version" : 
 	{

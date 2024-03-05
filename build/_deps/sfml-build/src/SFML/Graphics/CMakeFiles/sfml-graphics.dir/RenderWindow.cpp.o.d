@@ -1,14 +1,14 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderWindow.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderWindow.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Color.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Rect.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector2.inl \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -107,16 +107,16 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Rect.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/View.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Transform.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/BlendMode.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/RenderStates.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/PrimitiveType.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Vertex.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Image.hpp \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
  /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
@@ -168,18 +168,18 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Window.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Cursor.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/VideoMode.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/WindowHandle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Clock.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Time.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/11/locale /usr/include/c++/11/bits/locale_classes.h \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
@@ -202,17 +202,17 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Graphics/Texture.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
  /usr/include/inttypes.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h

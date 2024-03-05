@@ -68,7 +68,6 @@ list<sf::Vector2f> fruitCollision(list<sf::Vector2f> snake, list<sf::Vector2f> f
         
         if (spriteOverlap(fruitPosition, snake.front()))
         {
-            cout << fruitPosition.x;
             fruits.erase(fruitItr);
             break;
         }
@@ -156,7 +155,7 @@ int main()
     int height = 720;
     sf::String direction = "left";
     sf::RenderWindow window(sf::VideoMode(width, height), "Snake");
-    window.setFramerateLimit(15);
+    window.setFramerateLimit(10);
 
     int fruitLimit = 3;
 

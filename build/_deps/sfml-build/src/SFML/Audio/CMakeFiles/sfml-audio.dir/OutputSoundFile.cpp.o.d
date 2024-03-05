@@ -1,11 +1,11 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/OutputSoundFile.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/OutputSoundFile.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/OutputSoundFile.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/OutputSoundFile.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,10 +134,10 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o:
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl

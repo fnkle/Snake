@@ -1,7 +1,7 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -19,10 +19,10 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp

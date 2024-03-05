@@ -1,4 +1,4 @@
-# Install script for directory: /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Network
+# Install script for directory: /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Network
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,6 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/fink/Documents/code/snake/build/_deps/sfml-build/lib/libsfml-network-s-d.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/fink/Documents/code/Snake/build/_deps/sfml-build/lib/libsfml-network-s-d.a")
 endif()
 

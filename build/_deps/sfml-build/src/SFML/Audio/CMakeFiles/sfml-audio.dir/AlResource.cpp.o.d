@@ -1,12 +1,12 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/AlResource.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/AlResource.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/AlResource.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/AudioDevice.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/AlResource.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/AudioDevice.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector3.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Vector3.inl \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -140,7 +140,7 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Lock.hpp
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Mutex.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Lock.hpp

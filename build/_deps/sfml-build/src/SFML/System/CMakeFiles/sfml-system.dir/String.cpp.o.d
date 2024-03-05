@@ -1,10 +1,10 @@
 _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/System/String.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/System/String.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -175,7 +175,7 @@ _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o: \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/unique_ptr.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Utf.inl \
  /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/String.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/String.inl \
  /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h

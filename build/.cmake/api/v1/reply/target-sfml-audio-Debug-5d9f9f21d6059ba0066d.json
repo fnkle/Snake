@@ -103,11 +103,11 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/home/fink/Documents/code/snake/build/_deps/sfml-src/include"
+					"path" : "/home/fink/Documents/code/Snake/build/_deps/sfml-src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/fink/Documents/code/snake/build/_deps/sfml-src/src"
+					"path" : "/home/fink/Documents/code/Snake/build/_deps/sfml-src/src"
 				},
 				{
 					"backtrace" : 7,

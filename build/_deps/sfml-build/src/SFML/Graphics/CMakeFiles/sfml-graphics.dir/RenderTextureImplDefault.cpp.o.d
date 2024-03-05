@@ -1,18 +1,18 @@
 _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplDefault.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/RenderTextureImpl.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/GlResource.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/Context.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Window/ContextSettings.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLCheck.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLExtensions.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/GLLoader.hpp \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /usr/include/inttypes.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -30,8 +30,8 @@ _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImp
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Graphics/TextureSaver.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Err.hpp \
  /usr/include/c++/11/ostream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

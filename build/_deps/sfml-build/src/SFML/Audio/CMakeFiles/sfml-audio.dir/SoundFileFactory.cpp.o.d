@@ -1,9 +1,9 @@
 _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o: \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileFactory.cpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileFactory.cpp \
  /usr/include/stdc-predef.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Config.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Config.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -136,19 +136,19 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderFlac.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileFactory.inl \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderFlac.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileReader.hpp \
  /usr/include/FLAC/stream_decoder.h /usr/include/FLAC/export.h \
  /usr/include/FLAC/format.h /usr/include/FLAC/ordinals.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterFlac.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterFlac.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/Audio/SoundFileWriter.hpp \
  /usr/include/FLAC/stream_encoder.h /usr/include/FLAC/stream_decoder.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderOgg.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderOgg.hpp \
  /usr/include/vorbis/vorbisfile.h /usr/include/vorbis/codec.h \
  /usr/include/ogg/ogg.h /usr/include/ogg/os_types.h \
  /usr/include/ogg/config_types.h /usr/include/inttypes.h \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterOgg.hpp \
  /usr/include/vorbis/vorbisenc.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
@@ -174,11 +174,11 @@ _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
- /home/fink/Documents/code/snake/build/_deps/sfml-src/include/SFML/System/Err.hpp
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileReaderWav.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/src/SFML/Audio/SoundFileWriterWav.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/FileInputStream.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Export.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/InputStream.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/NonCopyable.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/MemoryInputStream.hpp \
+ /home/fink/Documents/code/Snake/build/_deps/sfml-src/include/SFML/System/Err.hpp

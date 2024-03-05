@@ -67,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/fink/Documents/code/snake/build"
+			"value" : "/home/fink/Documents/code/Snake/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -167,10 +167,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/g++"
 		},
 		{
@@ -295,10 +295,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "/usr/bin/gcc"
 		},
 		{
@@ -651,199 +651,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/fink/Documents/code/snake"
-		},
-		{
-			"name" : "CMAKE_INSTALL_BINDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "User executables (bin)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "bin"
-		},
-		{
-			"name" : "CMAKE_INSTALL_DATADIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_DATAROOTDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Read-only architecture-independent data root (share)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "share"
-		},
-		{
-			"name" : "CMAKE_INSTALL_DOCDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_INCLUDEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C header files (include)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "include"
-		},
-		{
-			"name" : "CMAKE_INSTALL_INFODIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Info documentation (DATAROOTDIR/info)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_LIBDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Object code libraries (lib)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "lib"
-		},
-		{
-			"name" : "CMAKE_INSTALL_LIBEXECDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Program executables (libexec)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "libexec"
-		},
-		{
-			"name" : "CMAKE_INSTALL_LOCALEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Modifiable single-machine data (var)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "var"
-		},
-		{
-			"name" : "CMAKE_INSTALL_MANDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Man documentation (DATAROOTDIR/man)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "C header files for non-gcc (/usr/include)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/include"
+			"value" : "/home/fink/Documents/code/Snake"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -858,54 +666,6 @@
 			"value" : "/usr/local"
 		},
 		{
-			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_INSTALL_SBINDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "System admin executables (sbin)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "sbin"
-		},
-		{
-			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Modifiable architecture-independent data (com)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "com"
-		},
-		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
 			"properties" : 
 			[
@@ -916,22 +676,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_INSTALL_SYSCONFDIR",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Read-only single-machine data (etc)"
-				}
-			],
-			"type" : "PATH",
-			"value" : "etc"
 		},
 		{
 			"name" : "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER",
@@ -1527,7 +1271,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/fink/Documents/code/snake/build/_deps"
+			"value" : "/home/fink/Documents/code/Snake/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -2479,7 +2223,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/fink/Documents/code/snake/build/_deps/sfml-build"
+			"value" : "/home/fink/Documents/code/Snake/build/_deps/sfml-build"
 		},
 		{
 			"name" : "SFML_BUILD_AUDIO",
@@ -2542,18 +2286,6 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "SFML_BUILD_TEST_SUITE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "TRUE to build the SFML test suite, FALSE to ignore it"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "FALSE"
-		},
-		{
 			"name" : "SFML_BUILD_WINDOW",
 			"properties" : 
 			[
@@ -2576,30 +2308,6 @@
 			],
 			"type" : "PATH",
 			"value" : "."
-		},
-		{
-			"name" : "SFML_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for SFML."
-				}
-			],
-			"type" : "PATH",
-			"value" : "/usr/lib/x86_64-linux-gnu/cmake/SFML"
-		},
-		{
-			"name" : "SFML_DOC_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a file."
-				}
-			],
-			"type" : "PATH",
-			"value" : "SFML_DOC_DIR-NOTFOUND"
 		},
 		{
 			"name" : "SFML_INSTALL_PKGCONFIG_FILES",
@@ -2671,19 +2379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/fink/Documents/code/snake/build/_deps/sfml-src"
-		},
-		{
-			"name" : "SFML_USE_DRM",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "TRUE to use DRM windowing backend"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "FALSE"
+			"value" : "/home/fink/Documents/code/Snake/build/_deps/sfml-src"
 		},
 		{
 			"name" : "SFML_USE_SYSTEM_DEPS",
@@ -2707,7 +2403,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/fink/Documents/code/snake/build"
+			"value" : "/home/fink/Documents/code/Snake/build"
 		},
 		{
 			"name" : "Snake_IS_TOP_LEVEL",
@@ -2731,7 +2427,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/fink/Documents/code/snake"
+			"value" : "/home/fink/Documents/code/Snake"
 		},
 		{
 			"name" : "UDEV_INCLUDE_DIR",
@@ -2828,18 +2524,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libvorbis.so"
-		},
-		{
-			"name" : "WARNINGS_AS_ERRORS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Treat compiler warnings as errors"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
 		},
 		{
 			"name" : "X11_ICE_INCLUDE_PATH",
@@ -4100,18 +3784,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/usr/lib/x86_64-linux-gnu/libxkbfile.so"
-		},
-		{
-			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "CMAKE_INSTALL_PREFIX during last run"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "/usr/local"
 		},
 		{
 			"name" : "__pkg_config_arguments_PKG_FONTCONFIG",

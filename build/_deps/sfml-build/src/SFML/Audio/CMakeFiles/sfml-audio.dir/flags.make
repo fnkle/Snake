@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DFLAC__NO_DLL -DOV_EXCLUDE_STATIC_CALLBACKS -DSFML_STATIC
 
-CXX_INCLUDES = -I/home/fink/Documents/code/snake/build/_deps/sfml-src/include -I/home/fink/Documents/code/snake/build/_deps/sfml-src/src -I/usr/include/AL
+CXX_INCLUDES = -I/home/fink/Documents/code/Snake/build/_deps/sfml-src/include -I/home/fink/Documents/code/Snake/build/_deps/sfml-src/src -I/usr/include/AL
 
 CXX_FLAGS = -g -fvisibility=hidden
 
