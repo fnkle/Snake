@@ -64,15 +64,12 @@ list<sf::Vector2f> fruitCollision(list<sf::Vector2f> snake, list<sf::Vector2f> f
     {
 
         sf::Vector2f fruitPosition = *fruitItr;
-        
-        
+
         if (spriteOverlap(fruitPosition, snake.front()))
         {
             fruits.erase(fruitItr);
             break;
         }
-        
-
     }
     return fruits;
 }
@@ -82,9 +79,9 @@ bool snakeCollision(list<sf::Vector2f> snake)
     list<sf::Vector2f>::iterator snakeItr;
     snakeItr = snake.begin();
     snakeItr++;
-    for (snakeItr; snakeItr != snake.end() ; snakeItr++)
+    for (snakeItr; snakeItr != snake.end(); snakeItr++)
     {
-        
+
         sf::Vector2f position(*snakeItr);
         if (spriteOverlap(*snakeItr, snake.front()))
         {
@@ -129,24 +126,91 @@ list<sf::Vector2f> addSegment(list<sf::Vector2f> snake)
     itr = snake.end();
     itr--;
     sf::Vector2f penSegment = *itr;
-    if(penSegment.x == lastSegment.x){
-        if(penSegment.y - lastSegment.y < 0){
+    if (penSegment.x == lastSegment.x)
+    {
+        if (penSegment.y - lastSegment.y < 0)
+        {
             newSegment.y += 40;
         }
-        else{
+        else
+        {
             newSegment.y -= 40;
         }
     }
-    else if (penSegment.y == lastSegment.y){
-        if(penSegment.x - lastSegment.x < 0 ){
-            newSegment.x +=40;
+    else if (penSegment.y == lastSegment.y)
+    {
+        if (penSegment.x - lastSegment.x < 0)
+        {
+            newSegment.x += 40;
         }
-        else{
+        else
+        {
             newSegment.x -= 40;
         }
     }
     snake.push_back(newSegment);
     return snake;
+}
+
+string getInput(sf::String direction)
+{
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) & direction != "right")
+    {
+        direction = "left";
+    }
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) & direction != "left")
+    {
+        direction = "right";
+    }
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) & direction != "down")
+    {
+        direction = "up";
+    }
+    else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) & direction != "up")
+    {
+        direction = "down";
+    }
+    return direction;
+}
+
+void drawSnake(list<sf::Vector2f> snake, sf::RenderWindow &window)
+{
+    for (sf::Vector2f position : snake)
+    {
+        sf::Vector2f sectionSize(40, 40);
+        sf::RectangleShape snakeSection(sectionSize);
+        snakeSection.setFillColor(sf::Color(100, 250, 50));
+
+        snakeSection.setPosition(position);
+
+        window.draw(snakeSection);
+    }
+}
+
+void drawFruit(list<sf::Vector2f> fruits, sf::RenderWindow &window)
+{
+    for (sf::Vector2f position : fruits)
+    {
+        sf::Vector2f fruitSize(40, 40);
+        sf::RectangleShape fruitSection(fruitSize);
+        fruitSection.setFillColor(sf::Color(250, 0, 0));
+
+        fruitSection.setPosition(position);
+
+        window.draw(fruitSection);
+    }
+}
+
+void closeWindow(sf::RenderWindow &window)
+{
+    sf::Event event;
+    while (window.pollEvent(event))
+    {
+        if (event.type == sf::Event::Closed)
+        {
+            window.close();
+        }
+    }
 }
 
 int main()
@@ -157,7 +221,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(width, height), "Snake");
     window.setFramerateLimit(10);
 
-    int fruitLimit = 3;
+    int fruitLimit = 10;
 
     list<sf::Vector2f> snake = initialSnake();
     list<sf::Vector2f> fruits;
@@ -167,34 +231,16 @@ int main()
     while (window.isOpen())
     {
         window.clear();
-
-        
-
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left) & direction != "right")
-        {
-            direction = "left";
-        }
-        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right) & direction != "left")
-        {
-            direction = "right";
-        }
-        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Up) & direction != "down")
-        {
-            direction = "up";
-        }
-        else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down) & direction != "up")
-        {
-            direction = "down";
-        }
+        direction = getInput(direction);
 
         snake = updateSnake(snake, direction);
 
-        if(snakeCollision(snake)){
+        if (snakeCollision(snake))
+        {
             window.close();
         }
 
         fruits = fruitCollision(snake, fruits);
-        
 
         if (fruits.size() < fruitLimit)
         {
@@ -202,37 +248,11 @@ int main()
             fruits = fillFruits(fruits, width, height, fruitLimit);
         }
 
-        for (sf::Vector2f position : snake)
-        {
-            sf::Vector2f sectionSize(40, 40);
-            sf::RectangleShape snakeSection(sectionSize);
-            snakeSection.setFillColor(sf::Color(100, 250, 50));
-
-            snakeSection.setPosition(position);
-
-            window.draw(snakeSection);
-        }
-
-        for (sf::Vector2f position : fruits)
-        {
-            sf::Vector2f fruitSize(40, 40);
-            sf::RectangleShape fruitSection(fruitSize);
-            fruitSection.setFillColor(sf::Color(250, 0, 0));
-
-            fruitSection.setPosition(position);
-
-            window.draw(fruitSection);
-        }
+        drawSnake(snake, window);
+        drawFruit(fruits, window);
 
         window.display();
 
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-            {
-                window.close();
-            }
-        }
+        closeWindow(window);
     }
 }
