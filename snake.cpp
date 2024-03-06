@@ -213,6 +213,35 @@ void closeWindow(sf::RenderWindow &window)
     }
 }
 
+void mainGame(sf::RenderWindow &window, sf::String &direction, list<sf::Vector2f> &snake, list<sf::Vector2f> &fruits, int fruitLimit)
+{
+    int width = window.getSize().x;
+    int height = window.getSize().y;
+    direction = getInput(direction);
+
+    snake = updateSnake(snake, direction);
+
+    if (snakeCollision(snake))
+    {
+        window.close();
+    }
+
+    fruits = fruitCollision(snake, fruits);
+
+    if (fruits.size() < fruitLimit)
+    {
+        snake = addSegment(snake);
+        fruits = fillFruits(fruits, width, height, fruitLimit);
+    }
+
+    drawSnake(snake, window);
+    drawFruit(fruits, window);
+
+    window.display();
+
+    closeWindow(window);
+}
+
 int main()
 {
     int width = 1280;
@@ -231,28 +260,7 @@ int main()
     while (window.isOpen())
     {
         window.clear();
-        direction = getInput(direction);
 
-        snake = updateSnake(snake, direction);
-
-        if (snakeCollision(snake))
-        {
-            window.close();
-        }
-
-        fruits = fruitCollision(snake, fruits);
-
-        if (fruits.size() < fruitLimit)
-        {
-            snake = addSegment(snake);
-            fruits = fillFruits(fruits, width, height, fruitLimit);
-        }
-
-        drawSnake(snake, window);
-        drawFruit(fruits, window);
-
-        window.display();
-
-        closeWindow(window);
+        mainGame(window, direction, snake, fruits, fruitLimit);
     }
 }
