@@ -1,3 +1,5 @@
+//Include librarys used in the code
+//These were all written by there respective owners and not me
 #include <SFML/Graphics.hpp>
 #include <list>
 #include <random>
@@ -5,6 +7,11 @@
 
 using namespace std;
 
+/*
+    A function making use of the random library. Upon recieving a
+    minimum and maximum value it will generate a random number between
+    them.
+*/
 int randomGen(int min, int max)
 {
     std::random_device rd;
@@ -13,6 +20,10 @@ int randomGen(int min, int max)
     return distr(gen);
 }
 
+/*
+    A function to set the initial snake. Defines 3 segments of the snake
+    then return the list that makes up the snake.
+*/
 list<sf::Vector2f> initialSnake()
 {
     sf::Vector2f part1(640, 360);
@@ -24,6 +35,11 @@ list<sf::Vector2f> initialSnake()
     return snake;
 }
 
+/*
+    A function to ensure that there is enough fruit to reach the fruit limit
+    this makes sure that the list of vector2 passed in has enough fruits.
+    It makes use of my randomGen() function in order to randomly create them.
+*/
 list<sf::Vector2f> fillFruits(list<sf::Vector2f> fruits, int width, int height, int fruitLimit)
 {
     while (fruits.size() < fruitLimit)
@@ -45,6 +61,11 @@ list<sf::Vector2f> fillFruits(list<sf::Vector2f> fruits, int width, int height, 
     return fruits;
 }
 
+/*
+    Checks is any 2 vector2 passed into the function are overlapping. In this game
+    I can just compare if they have the same postion of the bottom left vertex
+    as the game is grid based.
+*/
 bool spriteOverlap(sf::Vector2f fruitPosition, sf::Vector2f snakePosition)
 {
     if (fruitPosition.x == snakePosition.x)
@@ -57,7 +78,50 @@ bool spriteOverlap(sf::Vector2f fruitPosition, sf::Vector2f snakePosition)
     return false;
 }
 
-list<sf::Vector2f> fruitCollision(list<sf::Vector2f> snake, list<sf::Vector2f> fruits)
+/*
+    Adds a new segment to the snake it compares the position of the previous 2
+    segments to decide which way to add the snake segment.
+*/
+list<sf::Vector2f> addSegment(list<sf::Vector2f> snake)
+{
+    sf::Vector2f newSegment = snake.back();
+    sf::Vector2f lastSegment = snake.back();
+    list<sf::Vector2f>::iterator itr;
+    itr = snake.end();
+    itr--;
+    sf::Vector2f penSegment = *itr;
+    if (penSegment.x == lastSegment.x)
+    {
+        if (penSegment.y - lastSegment.y < 0)
+        {
+            newSegment.y += 40;
+        }
+        else
+        {
+            newSegment.y -= 40;
+        }
+    }
+    else if (penSegment.y == lastSegment.y)
+    {
+        if (penSegment.x - lastSegment.x < 0)
+        {
+            newSegment.x += 40;
+        }
+        else
+        {
+            newSegment.x -= 40;
+        }
+    }
+    snake.push_back(newSegment);
+    return snake;
+}
+
+/*
+    Loops through all the created fruit then checks if they overlap with the head
+    of the snake using the spriteOverlap() function. Then if it is removes a fruit
+    and increases the length of the snake.
+*/
+void fruitCollision(list<sf::Vector2f> &snake, list<sf::Vector2f> &fruits)
 {
     list<sf::Vector2f>::iterator fruitItr;
     for (fruitItr = fruits.begin(); fruitItr != fruits.end(); fruitItr++)
@@ -68,10 +132,13 @@ list<sf::Vector2f> fruitCollision(list<sf::Vector2f> snake, list<sf::Vector2f> f
         if (spriteOverlap(fruitPosition, snake.front()))
         {
             fruits.erase(fruitItr);
+            snake = addSegment(snake);
             break;
         }
+
+        
     }
-    return fruits;
+    
 }
 
 bool snakeCollision(list<sf::Vector2f> snake)
@@ -118,39 +185,7 @@ list<sf::Vector2f> updateSnake(list<sf::Vector2f> snake, sf::String direction)
     return snake;
 }
 
-list<sf::Vector2f> addSegment(list<sf::Vector2f> snake)
-{
-    sf::Vector2f newSegment = snake.back();
-    sf::Vector2f lastSegment = snake.back();
-    list<sf::Vector2f>::iterator itr;
-    itr = snake.end();
-    itr--;
-    sf::Vector2f penSegment = *itr;
-    if (penSegment.x == lastSegment.x)
-    {
-        if (penSegment.y - lastSegment.y < 0)
-        {
-            newSegment.y += 40;
-        }
-        else
-        {
-            newSegment.y -= 40;
-        }
-    }
-    else if (penSegment.y == lastSegment.y)
-    {
-        if (penSegment.x - lastSegment.x < 0)
-        {
-            newSegment.x += 40;
-        }
-        else
-        {
-            newSegment.x -= 40;
-        }
-    }
-    snake.push_back(newSegment);
-    return snake;
-}
+
 
 string getInput(sf::String direction)
 {
@@ -226,13 +261,8 @@ void mainGame(sf::RenderWindow &window, sf::String &direction, list<sf::Vector2f
         window.close();
     }
 
-    fruits = fruitCollision(snake, fruits);
-
-    if (fruits.size() < fruitLimit)
-    {
-        snake = addSegment(snake);
-        fruits = fillFruits(fruits, width, height, fruitLimit);
-    }
+    fruitCollision(snake, fruits);
+    fruits = fillFruits(fruits, width, height, fruitLimit);
 
     drawSnake(snake, window);
     drawFruit(fruits, window);
