@@ -1,5 +1,5 @@
-//Include librarys used in the code
-//These were all written by there respective owners and not me
+// Include librarys used in the code
+// These were all written by there respective owners and not me
 #include <SFML/Graphics.hpp>
 #include <list>
 #include <random>
@@ -135,10 +135,7 @@ void fruitCollision(list<sf::Vector2f> &snake, list<sf::Vector2f> &fruits)
             snake = addSegment(snake);
             break;
         }
-
-        
     }
-    
 }
 
 bool snakeCollision(list<sf::Vector2f> snake)
@@ -184,8 +181,6 @@ list<sf::Vector2f> updateSnake(list<sf::Vector2f> snake, sf::String direction)
 
     return snake;
 }
-
-
 
 string getInput(sf::String direction)
 {
@@ -267,7 +262,33 @@ void mainGame(sf::RenderWindow &window, sf::String &direction, list<sf::Vector2f
     drawSnake(snake, window);
     drawFruit(fruits, window);
 
-    window.display();
+    closeWindow(window);
+}
+
+void menuRender(sf::RenderWindow &window)
+{
+    window.clear(sf::Color::Blue);
+
+    sf::Font font;
+    font.loadFromFile("../ArialFont/arial.ttf");
+
+    sf::Vector2f titlePosition(540, 60);
+    sf::Text title;
+    title.setFont(font);
+    title.setString("Snake");
+    title.setCharacterSize(72);
+    title.setFillColor(sf::Color::Red);
+    title.setPosition(titlePosition);
+
+    sf::Vector2f groundSize(window.getSize().x, 200);
+    sf::Vector2f groundPosition(0, window.getSize().y-200);
+    sf::RectangleShape ground(groundSize);
+    ground.setFillColor(sf::Color(0, 250, 0));
+
+    ground.setPosition(groundPosition);
+
+    window.draw(ground);
+    window.draw(title);
 
     closeWindow(window);
 }
@@ -287,10 +308,20 @@ int main()
 
     fruits = fillFruits(fruits, width, height, fruitLimit);
 
+    bool menu = true;
+
     while (window.isOpen())
     {
         window.clear();
+        if (menu)
+        {
+            menuRender(window);
+        }
+        else
+        {
+            mainGame(window, direction, snake, fruits, fruitLimit);
+        }
 
-        mainGame(window, direction, snake, fruits, fruitLimit);
+        window.display();
     }
 }
