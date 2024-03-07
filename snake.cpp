@@ -265,14 +265,16 @@ void mainGame(sf::RenderWindow &window, sf::String &direction, list<sf::Vector2f
     closeWindow(window);
 }
 
-void menuRender(sf::RenderWindow &window)
+bool menuRender(sf::RenderWindow &window)
 {
+    bool endLoop = false;
+
     window.clear(sf::Color::Blue);
 
     sf::Font font;
     font.loadFromFile("../ArialFont/arial.ttf");
 
-    sf::Vector2f titlePosition(540, 60);
+    sf::Vector2f titlePosition(440, 60);
     sf::Text title;
     title.setFont(font);
     title.setString("Snake");
@@ -280,22 +282,49 @@ void menuRender(sf::RenderWindow &window)
     title.setFillColor(sf::Color::Red);
     title.setPosition(titlePosition);
 
+    sf::Vector2f buttonTextPosition(515, 217);
+    sf::Text buttonText;
+    buttonText.setFont(font);
+    buttonText.setString("Play");
+    buttonText.setCharacterSize(24);
+    buttonText.setFillColor(sf::Color::Red);
+    buttonText.setPosition(buttonTextPosition);
+
     sf::Vector2f groundSize(window.getSize().x, 200);
-    sf::Vector2f groundPosition(0, window.getSize().y-200);
+    sf::Vector2f groundPosition(0, window.getSize().y - 200);
     sf::RectangleShape ground(groundSize);
     ground.setFillColor(sf::Color(0, 250, 0));
-
     ground.setPosition(groundPosition);
 
+    sf::Vector2f buttonSize(200, 50);
+    sf::Vector2f buttonPosition(440, 210);
+    sf::RectangleShape button(buttonSize);
+    button.setFillColor(sf::Color(0, 0, 0));
+    button.setPosition(buttonPosition);
+
+    if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)){
+        sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+        if((mousePos.x > buttonPosition.x) & (mousePos.x < (buttonPosition.x + buttonSize .x))){
+            if((mousePos.y > buttonPosition.y) & (mousePos.y < (buttonPosition.y + buttonSize.y))){
+                endLoop = true;
+                return endLoop;
+            }
+        }
+    }
+
+    window.draw(button);
+    window.draw(buttonText);
     window.draw(ground);
     window.draw(title);
 
     closeWindow(window);
+
+    return endLoop;
 }
 
 int main()
 {
-    int width = 1280;
+    int width = 1080;
     int height = 720;
     sf::String direction = "left";
     sf::RenderWindow window(sf::VideoMode(width, height), "Snake");
@@ -315,7 +344,9 @@ int main()
         window.clear();
         if (menu)
         {
-            menuRender(window);
+            if(menuRender(window)){
+                menu = false;
+            }
         }
         else
         {
