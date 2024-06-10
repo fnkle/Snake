@@ -138,7 +138,7 @@ void fruitCollision(list<sf::Vector2f> &snake, list<sf::Vector2f> &fruits)
     }
 }
 
-bool snakeCollision(list<sf::Vector2f> snake, int width, int height)
+bool snakeCollision(list<sf::Vector2f> snake)
 {
     list<sf::Vector2f>::iterator snakeItr;
     snakeItr = snake.begin();
@@ -152,20 +152,7 @@ bool snakeCollision(list<sf::Vector2f> snake, int width, int height)
             return true;
         }
     }
-    
-
-    if (snake.front().x < 0 | snake.front().x >= width)
-    {
-        cout<<"test";
-        return true;
-    }
-    else if(snake.front().y > 0 | snake.front().y <= height){
-        
-        return true;
-    }
-
     return false;
-    
 }
 
 list<sf::Vector2f> updateSnake(list<sf::Vector2f> snake, sf::String direction)
@@ -264,7 +251,7 @@ void mainGame(sf::RenderWindow &window, sf::String &direction, list<sf::Vector2f
 
     snake = updateSnake(snake, direction);
 
-    if (snakeCollision(snake, width, height))
+    if (snakeCollision(snake))
     {
         window.close();
     }
@@ -341,7 +328,7 @@ int main()
     int height = 720;
     sf::String direction = "left";
     sf::RenderWindow window(sf::VideoMode(width, height), "Snake");
-    window.setFramerateLimit(15);
+    window.setFramerateLimit(10);
 
     int fruitLimit = 10;
 
