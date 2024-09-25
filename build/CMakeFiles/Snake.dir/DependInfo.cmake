@@ -8,14 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/fink/Documents/code/Snake/snake.cpp" "CMakeFiles/Snake.dir/snake.cpp.o" "gcc" "CMakeFiles/Snake.dir/snake.cpp.o.d"
+  "/home/fink/Documents/code/Snake/src/main.cpp" "CMakeFiles/Snake.dir/src/main.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/fink/Documents/code/Snake/build/_deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "/home/fink/Documents/code/Snake/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/home/fink/Documents/code/Snake/build/_deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

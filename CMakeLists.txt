@@ -1,14 +1,12 @@
-cmake_minimum_required(VERSION 3.19)
-project(Snake VERSION 1.0)
-include(FetchContent)
-set(BUILD_SHARED_LIBS OFF)
-FetchContent_Declare(
- SFML
- GIT_REPOSITORY https://github.com/SFML/SFML.git
- GIT_TAG 2.5.1
-)
-FetchContent_MakeAvailable(SFML)
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_CXX_STANDARD_REQUIRED true)
-add_executable(Snake snake.cpp)
-target_link_libraries(Snake sfml-graphics)
+cmake_minimum_required(VERSION 3.10)
+project(Snake)
+find_package(SDL2)
+
+
+
+include_directories(${SDL2_INCLUDE_DIR})
+
+add_executable(Snake ./src/main.cpp)
+
+target_include_directories(Snake PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
+target_link_libraries(Snake ${SDL2_LIBRARIES})
