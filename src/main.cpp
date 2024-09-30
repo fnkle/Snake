@@ -48,7 +48,7 @@ int main()
     int numTilesY = width / tileSize;
 
     int init = initSDL(&window, &renderer, width, height);
-    int numFruit = 4;
+    int numFruit = 15;
     list<Fruit> fruits = {};
     srand((unsigned)time(NULL));
 
@@ -66,24 +66,27 @@ int main()
 
     enum Direction direction = LEFT;
 
+    bool updatedDirection;
+
     if (init)
     {
         while (loop)
         {
+            updatedDirection = false;
             SDL_RenderPresent(renderer);
             SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
             SDL_RenderClear(renderer);
 
             // Get next event
             SDL_Event event;
-            if (SDL_PollEvent(&event))
+            while (SDL_PollEvent(&event))
             {
                 if (event.type == SDL_QUIT)
                 {
                     loop = false;
                     break;
                 }
-                else if (event.type = SDL_KEYDOWN)
+                else if (event.type = SDL_KEYDOWN && !updatedDirection)
                 {
                     switch (event.key.keysym.sym)
                     {
@@ -91,24 +94,28 @@ int main()
                         if (direction != DOWN)
                         {
                             direction = UP;
+                            updatedDirection = true;
                         }
                         break;
                     case SDLK_DOWN:
                         if (direction != UP)
                         {
                             direction = DOWN;
+                            updatedDirection = true;
                         }
                         break;
                     case SDLK_LEFT:
                         if (direction != RIGHT)
                         {
                             direction = LEFT;
+                            updatedDirection = true;
                         }
                         break;
                     case SDLK_RIGHT:
                         if (direction != LEFT)
                         {
                             direction = RIGHT;
+                            updatedDirection = true;
                         }
                         break;
                     default:
@@ -170,7 +177,7 @@ int main()
                 }
             }
             SDL_RenderPresent(renderer);
-            SDL_Delay(200);
+            SDL_Delay(150);
         }
     }
 }
