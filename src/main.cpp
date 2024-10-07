@@ -169,8 +169,22 @@ int main()
                 {
                     fruits.erase(fruitItr);
                     snake.addSegment();
-                    int fruitXPosition = rand() % numTilesX;
-                    int fruitYPosition = rand() % numTilesY;
+
+                    bool validPlaceFound = false;
+                    int fruitXPosition, fruitYPosition;
+
+                    while(!validPlaceFound){
+                        fruitXPosition = rand() % numTilesX;
+                        fruitYPosition = rand() % numTilesY;
+
+                        for(vectorInt position: snake.snakePiecesPos){
+                            if(squareOnSquareCollision(position, vectorInt(fruitXPosition, fruitYPosition))){
+                                break;
+                            }else{
+                                validPlaceFound = true;
+                            }
+                        }
+                    }
 
                     fruits.push_back(Fruit(tileSize, vectorInt(fruitXPosition * tileSize, fruitYPosition * tileSize)));
                     break;

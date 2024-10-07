@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/fink/Documents/code/Snake/build",
-  "command": "/usr/bin/g++  -I/home/fink/Documents/code/Snake -g -o CMakeFiles/Snake.dir/src/main.cpp.o -c /home/fink/Documents/code/Snake/src/main.cpp",
-  "file": "/home/fink/Documents/code/Snake/src/main.cpp"
-}
-]

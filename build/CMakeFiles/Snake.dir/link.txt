@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/Snake.dir/src/main.cpp.o -o Snake  -L/usr/lib/x86_64-linux-gnu  -lSDL2 
+/usr/bin/c++ CMakeFiles/Snake.dir/src/main.cpp.o -o Snake  /usr/lib/libSDL2main.a /usr/lib/libSDL2-2.0.so.0.3000.8
