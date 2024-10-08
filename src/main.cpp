@@ -163,31 +163,35 @@ int main()
             for (fruitItr = fruits.begin(); fruitItr != fruits.end(); fruitItr++)
             {
 
-                Fruit fruit = *fruitItr;
+                Fruit &fruit = *fruitItr;
 
                 if (squareOnSquareCollision(fruit.fruitPosition, snake.snakePiecesPos.front()))
                 {
-                    fruits.erase(fruitItr);
                     snake.addSegment();
 
                     bool validPlaceFound = false;
                     int fruitXPosition, fruitYPosition;
 
                     while(!validPlaceFound){
-                        fruitXPosition = rand() % numTilesX;
-                        fruitYPosition = rand() % numTilesY;
+						vectorInt fruitPos = {
+							(rand() % numTilesX) * tileSize,
+							(rand() % numTilesY) * tileSize
+						};
 
                         for(vectorInt position: snake.snakePiecesPos){
-                            if(squareOnSquareCollision(position, vectorInt(fruitXPosition, fruitYPosition))){
-                                break;
-                            }else{
-                                validPlaceFound = true;
-                            }
-                        }
-                    }
+							std::cout << "sX:" << position.x / tileSize << "sY:" << position.y / tileSize << std::endl;
+							if(squareOnSquareCollision(position, fruitPos)) {
+								validPlaceFound = false;
+								break;
+							} else {
+								validPlaceFound = true;
+							}
 
-                    fruits.push_back(Fruit(tileSize, vectorInt(fruitXPosition * tileSize, fruitYPosition * tileSize)));
-                    break;
+                        }
+						if (validPlaceFound) {
+							fruit = Fruit(tileSize, fruitPos);
+						}
+                    }
                 }
             }
             SDL_RenderPresent(renderer);
