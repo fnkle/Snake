@@ -1,3 +1,0 @@
-/home/finkle/Documents/code/Snake/build/CMakeFiles/Snake.dir
-/home/finkle/Documents/code/Snake/build/CMakeFiles/edit_cache.dir
-/home/finkle/Documents/code/Snake/build/CMakeFiles/rebuild_cache.dir
