@@ -179,7 +179,6 @@ int main()
 						};
 
                         for(vectorInt position: snake.snakePiecesPos){
-							std::cout << "sX:" << position.x / tileSize << "sY:" << position.y / tileSize << std::endl;
 							if(squareOnSquareCollision(position, fruitPos)) {
 								validPlaceFound = false;
 								break;
