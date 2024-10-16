@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/finkle/Documents/code/Snake/src/collisions.cpp" "CMakeFiles/Snake.dir/src/collisions.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/collisions.cpp.o.d"
   "/home/finkle/Documents/code/Snake/src/main.cpp" "CMakeFiles/Snake.dir/src/main.cpp.o" "gcc" "CMakeFiles/Snake.dir/src/main.cpp.o.d"
   )
 

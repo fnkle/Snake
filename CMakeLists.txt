@@ -5,8 +5,9 @@ find_package(SDL2)
 
 
 include_directories(${SDL2_INCLUDE_DIR})
+include_directories("include/")
 
-add_executable(Snake ./src/main.cpp)
+file(GLOB_RECURSE ${PROJECT_NAME}_SRC "src/*.cpp")
+add_executable(${PROJECT_NAME} ${${PROJECT_NAME}_SRC})
 
-target_include_directories(Snake PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}")
 target_link_libraries(Snake ${SDL2_LIBRARIES})

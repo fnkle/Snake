@@ -1,8 +1,8 @@
-#include <iostream>
-#include <SDL2/SDL.h>
-#include "snake.hpp"
-#include "fruit.hpp"
 #include "collisions.hpp"
+#include "fruit.hpp"
+#include "snake.hpp"
+#include <SDL2/SDL.h>
+#include <iostream>
 
 using namespace std;
 
@@ -17,7 +17,8 @@ int initSDL(SDL_Window **window, SDL_Renderer **renderer, int width, int height)
     else
     {
         // Create window
-        *window = SDL_CreateWindow("Simulations", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height, SDL_WINDOW_SHOWN);
+        *window = SDL_CreateWindow("Simulations", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, width, height,
+                                   SDL_WINDOW_SHOWN);
 
         if (window == NULL)
         {
@@ -28,6 +29,7 @@ int initSDL(SDL_Window **window, SDL_Renderer **renderer, int width, int height)
         *renderer = SDL_CreateRenderer(*window, -1, 0);
         if (renderer == NULL)
         {
+
             cout << "Renderer could not be created! SDL_Error: %s\n", SDL_GetError();
             return -2;
         }
@@ -48,7 +50,7 @@ int main()
     int numTilesY = width / tileSize;
 
     int init = initSDL(&window, &renderer, width, height);
-    int numFruit = 15;
+    int numFruit = 30;
     list<Fruit> fruits = {};
     srand((unsigned)time(NULL));
 
@@ -86,7 +88,7 @@ int main()
                     loop = false;
                     break;
                 }
-                else if (event.type = SDL_KEYDOWN && !updatedDirection)
+                else if (event.type == SDL_KEYDOWN && !updatedDirection)
                 {
                     switch (event.key.keysym.sym)
                     {
@@ -126,11 +128,13 @@ int main()
 
             snake.move(direction);
 
-            if(!snake.checkInBounds(width, height)){
+            if (!snake.checkInBounds(width, height))
+            {
                 loop = false;
             }
 
-            if(!snake.checkNoSnakeCollision()){
+            if (!snake.checkNoSnakeCollision())
+            {
                 loop = false;
             }
 
@@ -165,7 +169,7 @@ int main()
 
                 Fruit fruit = *fruitItr;
 
-                if (squareOnSquareCollision(fruit.fruitPosition, snake.snakePiecesPos.front()))
+                if (tileCollision(fruit.fruitPosition, snake.snakePiecesPos.front()))
                 {
                     fruits.erase(fruitItr);
                     snake.addSegment();
@@ -173,15 +177,21 @@ int main()
                     bool validPlaceFound = false;
                     int fruitXPosition, fruitYPosition;
 
-                    while(!validPlaceFound){
+                    while (!validPlaceFound)
+                    {
                         fruitXPosition = rand() % numTilesX;
                         fruitYPosition = rand() % numTilesY;
 
-                        for(vectorInt position: snake.snakePiecesPos){
-                            if(squareOnSquareCollision(position, vectorInt(fruitXPosition, fruitYPosition))){
+                        for (vectorInt position : snake.snakePiecesPos)
+                        {
+                            if (tileCollision(position, vectorInt(fruitXPosition, fruitYPosition)))
+                            {
                                 break;
-                            }else{
+                            }
+                            else
+                            {
                                 validPlaceFound = true;
+                                break;
                             }
                         }
                     }
@@ -191,7 +201,7 @@ int main()
                 }
             }
             SDL_RenderPresent(renderer);
-            SDL_Delay(150);
+            SDL_Delay(110);
         }
     }
 }
