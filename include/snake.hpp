@@ -1,7 +1,7 @@
 #include "Direction.hpp"
-#include "collisions.hpp"
 #include "vector.hpp"
 #include <SDL2/SDL.h>
+#include <SDL_render.h>
 #include <list>
 
 class Snake
@@ -15,4 +15,7 @@ class Snake
     void addSegment();
     bool checkInBounds(int width, int height);
     bool checkNoSnakeCollision();
+    bool checkFruitSpawnCollision(vectorInt fruitPosition);
+    bool canEatFruit(vectorInt fruitPosition);
+    void render(SDL_Renderer **renderer);
 };

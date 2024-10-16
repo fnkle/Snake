@@ -1,4 +1,7 @@
 #include "snake.hpp"
+#include "collisions.hpp"
+#include "vector.hpp"
+#include <SDL2/SDL.h>
 
 Snake::Snake(int snakePieceSize)
 {
@@ -91,7 +94,6 @@ bool Snake::checkNoSnakeCollision()
     snakeItr++;
     for (snakeItr; snakeItr != snakePiecesPos.end(); snakeItr++)
     {
-
         vectorInt snakePiece = *snakeItr;
 
         if (tileCollision(snakePiecesPos.front(), snakePiece))
@@ -100,4 +102,39 @@ bool Snake::checkNoSnakeCollision()
         }
     }
     return true;
+}
+
+bool Snake::checkFruitSpawnCollision(vectorInt fruitPosition)
+{
+    for (vectorInt snakePiecePos : snakePiecesPos)
+    {
+        if (tileCollision(fruitPosition, snakePiecePos))
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool Snake::canEatFruit(vectorInt fruitPosition)
+{
+    if(tileCollision(fruitPosition, snakePiecesPos.front())){
+        return true;
+    }
+    return false;
+}
+
+void Snake::render(SDL_Renderer **renderer)
+{
+    for (vectorInt snakePiece : snakePiecesPos)
+    {
+        SDL_Rect snakePieceRect = SDL_Rect();
+        snakePieceRect.x = snakePiece.x;
+        snakePieceRect.y = snakePiece.y;
+        snakePieceRect.w = snakePieceSize;
+        snakePieceRect.h = snakePieceSize;
+
+        SDL_SetRenderDrawColor(*renderer, 0, 255, 0, 255);
+        SDL_RenderFillRect(*renderer, &snakePieceRect);
+    }
 }
