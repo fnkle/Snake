@@ -8,7 +8,7 @@ Game::Game(SDL_Renderer **renderer, int width, int height) : snake(Snake(0))
     this->width = width;
     this->height = height;
     tileSize = 40;
-    numFruits = 20;
+    numFruits = 50;
     numTilesX = width / tileSize;
     numTilesY = height / tileSize;
     listFruits = {};
@@ -122,17 +122,20 @@ void Game::update()
         {
             listFruits.erase(fruitItr);
             snake.addSegment();
-            fillFruits();
             break;
         }
     }
 
-    snake.render(&renderer);
+    
+
+    fillFruits();
 
     for (Fruit fruit : listFruits)
     {
         fruit.render(&renderer);
     }
+
+    snake.render(&renderer);
 
     SDL_RenderPresent(renderer);
 }
