@@ -2,6 +2,7 @@
 #include "collisions.hpp"
 #include "vector.hpp"
 #include <SDL2/SDL.h>
+#include <SDL_render.h>
 
 Snake::Snake(int snakePieceSize)
 {
@@ -126,8 +127,10 @@ bool Snake::canEatFruit(vectorInt fruitPosition)
 
 void Snake::render(SDL_Renderer **renderer)
 {
-    for (vectorInt snakePiece : snakePiecesPos)
-    {
+    std::list<vectorInt>::iterator snakeItr = snakePiecesPos.begin();
+    for (snakeItr; snakeItr != snakePiecesPos.end(); snakeItr++)
+    {   
+        vectorInt snakePiece = *snakeItr;
         SDL_Rect snakePieceRect = SDL_Rect();
         snakePieceRect.x = snakePiece.x;
         snakePieceRect.y = snakePiece.y;
@@ -136,5 +139,7 @@ void Snake::render(SDL_Renderer **renderer)
 
         SDL_SetRenderDrawColor(*renderer, 0, 255, 0, 255);
         SDL_RenderFillRect(*renderer, &snakePieceRect);
+        SDL_SetRenderDrawColor(*renderer, 0, 0, 0, 255);
+        SDL_RenderDrawRect(*renderer, &snakePieceRect);
     }
 }

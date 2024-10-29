@@ -8,7 +8,7 @@ Game::Game(SDL_Renderer **renderer, int width, int height) : snake(Snake(0))
     this->width = width;
     this->height = height;
     tileSize = 40;
-    numFruits = 50;
+    numFruits = 80;
     numTilesX = width / tileSize;
     numTilesY = height / tileSize;
     listFruits = {};
