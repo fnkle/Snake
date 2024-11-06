@@ -1,15 +1,12 @@
 #include "snake.hpp"
 #include "collisions.hpp"
 #include "vector.hpp"
-#include <SDL2/SDL.h>
-#include <SDL_render.h>
 
-Snake::Snake(int snakePieceSize)
+Snake::Snake(vectorInt startPos)
 {
-    this->snakePieceSize = snakePieceSize;
-    snakePiecesPos.push_back(vectorInt(400, 200));
-    snakePiecesPos.push_back(vectorInt(400 + snakePieceSize, 200));
-    snakePiecesPos.push_back(vectorInt(400 + snakePieceSize * 2, 200));
+    snakePiecesPos.push_back(startPos);
+    snakePiecesPos.push_back(vectorInt(startPos.x + 1, startPos.y));
+    snakePiecesPos.push_back(vectorInt(startPos.x, startPos.y));
 }
 
 void Snake::move(enum Direction direction)
@@ -18,19 +15,19 @@ void Snake::move(enum Direction direction)
 
     if (direction == UP)
     {
-        newSnakeHead.y -= snakePieceSize;
+        newSnakeHead.y--;
     }
     else if (direction == DOWN)
     {
-        newSnakeHead.y += snakePieceSize;
+        newSnakeHead.y++;
     }
     else if (direction == RIGHT)
     {
-        newSnakeHead.x += snakePieceSize;
+        newSnakeHead.x++;
     }
     else if (direction == LEFT)
     {
-        newSnakeHead.x -= snakePieceSize;
+        newSnakeHead.x--;
     }
 
     snakePiecesPos.pop_back();
@@ -49,11 +46,11 @@ void Snake::addSegment()
         // Check whether it is going up or down
         if (penultimateSnakePiece.y - lastSnakePiece.y < 0)
         {
-            newSnakePiece.y += 40;
+            newSnakePiece.y++;
         }
         else
         {
-            newSnakePiece.y -= 40;
+            newSnakePiece.y--;
         }
     }
     else if (penultimateSnakePiece.y == lastSnakePiece.y)
@@ -61,11 +58,11 @@ void Snake::addSegment()
         // CHeck whether it is going left or right
         if (penultimateSnakePiece.x - lastSnakePiece.x < 0)
         {
-            newSnakePiece.x += 40;
+            newSnakePiece.x++;
         }
         else
         {
-            newSnakePiece.x -= 40;
+            newSnakePiece.x--;
         }
     }
     snakePiecesPos.push_back(newSnakePiece);
@@ -123,23 +120,4 @@ bool Snake::canEatFruit(vectorInt fruitPosition)
         return true;
     }
     return false;
-}
-
-void Snake::render(SDL_Renderer **renderer)
-{
-    std::list<vectorInt>::iterator snakeItr = snakePiecesPos.begin();
-    for (snakeItr; snakeItr != snakePiecesPos.end(); snakeItr++)
-    {   
-        vectorInt snakePiece = *snakeItr;
-        SDL_Rect snakePieceRect = SDL_Rect();
-        snakePieceRect.x = snakePiece.x;
-        snakePieceRect.y = snakePiece.y;
-        snakePieceRect.w = snakePieceSize;
-        snakePieceRect.h = snakePieceSize;
-
-        SDL_SetRenderDrawColor(*renderer, 0, 255, 0, 255);
-        SDL_RenderFillRect(*renderer, &snakePieceRect);
-        SDL_SetRenderDrawColor(*renderer, 0, 0, 0, 255);
-        SDL_RenderDrawRect(*renderer, &snakePieceRect);
-    }
 }

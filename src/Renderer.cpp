@@ -40,6 +40,7 @@ Renderer::Renderer(std::string title, int width, int height, int tileSize)
 }
 
 void Renderer::clear() {
+	SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
 	SDL_RenderClear(renderer);
 }
 
@@ -51,8 +52,8 @@ void Renderer::renderSnake(const Snake* snake) {
     SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
 	for (vectorInt segment: snake->snakePiecesPos) {
 		SDL_Rect bounds = {
-			segment.x,
-			segment.y,
+			segment.x * tileSize,
+			segment.y * tileSize,
 			tileSize,
 			tileSize
 		};
@@ -72,8 +73,8 @@ void Renderer::renderFruits(std::list<Fruit> fruits) {
 
 void Renderer::renderFruit(const Fruit* fruit) {
 	SDL_Rect bounds = {
-		fruit->fruitPosition.x,
-		fruit->fruitPosition.y,
+		fruit->fruitPosition.x * tileSize,
+		fruit->fruitPosition.y * tileSize,
 		tileSize,
 		tileSize,
 	};
