@@ -1,3 +1,5 @@
+#ifndef SNAKE_HPP
+#define SNAKE_HPP
 #include "Direction.hpp"
 #include "vector.hpp"
 #include <SDL2/SDL.h>
@@ -19,3 +21,5 @@ class Snake
     bool canEatFruit(vectorInt fruitPosition);
     void render(SDL_Renderer **renderer);
 };
+
+#endif

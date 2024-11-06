@@ -1,8 +1,12 @@
-#include <SDL_render.h>
 #ifndef GAME_HPP
+#define GAME_HPP
+
 #include "fruit.hpp"
 #include "snake.hpp"
+
 #include <list>
+
+#include <SDL_render.h>
 
 class Game
 {
