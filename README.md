@@ -17,16 +17,15 @@ A simple game for practicing my C++ skills as well as messing around with SDL2 w
 
 ## Possible Future Features
 - Quality Of Life
+  - General Prettiness
+    - Colour choices
+    - Snake Outline 
   - Menus
-      - Intro
       - Settings
   - Options for numbers
       - Num fruit
       - Tile size
   - Variable screen size 
-- Pretty
-  - End Screen
-  - Intro Screen
 
 ## Current Plans
 Currently working on another project that has peaked my interest.
