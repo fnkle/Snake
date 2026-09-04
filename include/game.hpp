@@ -1,17 +1,17 @@
-#include <SDL_render.h>
 #ifndef GAME_HPP
+#define GAME_HPP
+
 #include "fruit.hpp"
+#include "Renderer.hpp"
 #include "snake.hpp"
+
 #include <list>
 
 class Game
 {
   private:
     Snake snake;
-    SDL_Renderer *renderer;
-    int width;
-    int height;
-    int tileSize;
+	Renderer renderer;
     int numTilesX;
     int numTilesY;
     int numFruits;
@@ -20,7 +20,7 @@ class Game
     std::list<Fruit> listFruits;
 
   public:
-    Game(SDL_Renderer **renderer, int width, int height);
+    Game(Renderer renderer, int numTilesX, int numTilesY);
     void update();
     void fillFruits();
     void handleEvents();

@@ -1,24 +1,21 @@
 #include "game.hpp"
 #include "fruit.hpp"
+#include "Renderer.hpp"
 #include "vector.hpp"
-#include <SDL_render.h>
 
-Game::Game(SDL_Renderer **renderer, int width, int height) : snake(Snake(0))
+Game::Game(Renderer renderer, int numTilesX, int numTilesY)
+	: renderer(renderer),
+	numTilesX(numTilesX),
+	numTilesY(numTilesY),
+	snake(vectorInt())
 {
-    this->width = width;
-    this->height = height;
-    tileSize = 40;
     numFruits = 80;
-    numTilesX = width / tileSize;
-    numTilesY = height / tileSize;
     listFruits = {};
     gameLoop = true;
     snakeDirection = LEFT;
     srand((unsigned)time(NULL));
 
-    snake = Snake(tileSize);
-
-    this->renderer = *renderer;
+    snake = Snake({numTilesX / 2, numTilesY / 2});
 
     fillFruits();
     loop();
@@ -32,11 +29,11 @@ void Game::fillFruits()
         {
             int fruitX = rand() % numTilesX;
             int fruitY = rand() % numTilesY;
-            vectorInt fruitPosition = vectorInt(fruitX * tileSize, fruitY * tileSize);
+            vectorInt fruitPosition = vectorInt(fruitX, fruitY);
 
             if (!snake.checkFruitSpawnCollision(fruitPosition))
             {
-                listFruits.push_back(Fruit(tileSize, fruitPosition));
+                listFruits.push_back(Fruit(fruitPosition));
                 break;
             }
         }
@@ -96,14 +93,11 @@ void Game::handleEvents()
 
 void Game::update()
 {
-    SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
-    SDL_RenderClear(renderer);
-
     handleEvents();
 
     snake.move(snakeDirection);
 
-    if (!snake.checkInBounds(width, height))
+    if (!snake.checkInBounds(numTilesX, numTilesY))
     {
         gameLoop = false;
     }
@@ -130,14 +124,10 @@ void Game::update()
 
     fillFruits();
 
-    for (Fruit fruit : listFruits)
-    {
-        fruit.render(&renderer);
-    }
-
-    snake.render(&renderer);
-
-    SDL_RenderPresent(renderer);
+	renderer.clear();
+	renderer.renderFruits(listFruits);
+	renderer.renderSnake(&snake);
+	renderer.present();
 }
 
 void Game::loop()
